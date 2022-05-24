@@ -2,7 +2,7 @@
 
 pkgname=virt-manager-meta
 pkgver=5
-pkgrel=1
+pkgrel=2
 arch=('any')
 url="https://wiki.archlinux.org/index.php/Libvirt"
 license=('GPL')
@@ -13,7 +13,7 @@ depends=("bridge-utils"
 		"edk2-ovmf"
 		"libvirt"
 		"netcat"
-		"qemu"
+		"qemu-desktop"
 		"qemu-arch-extra"
 		"radvd"
 		"virt-viewer"

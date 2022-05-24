@@ -1,7 +1,7 @@
 # Maintainer: Erik Dubois <erik.dubois@gmail.com>
 pkgname=steam-nvidia
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Installs steam for nVidia GPUs"
 arch=('any')
 url="https://xerolinux.xyz"
@@ -32,6 +32,8 @@ depends=(
 'lib32-libdbusmenu-glib'
 'lib32-libdbusmenu-gtk2'
 'lib32-nss'
+'lib32-nvidia-cg-toolkit'
+'nvidia-cg-toolkit'
 'ttf-ms-fonts'
 'vulkan-tools'
 'proton-ge-custom-bin')
