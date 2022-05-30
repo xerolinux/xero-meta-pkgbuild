@@ -1,14 +1,14 @@
 # Maintainer: Librewish <librewish@gmail.com>
 
 pkgname=wine-meta
-pkgver=1
-pkgrel=3
+pkgver=2
+pkgrel=1
 arch=('any')
 url="https://wiki.archlinux.org/index.php/wine"
 license=('GPL')
 pkgdesc="Meta package for WINE support"
 depends=(
-  wine                  exe-thumbnailer
+  wine
   wine-gecko            wine-mono
   wine-nine             wine-installer
   winetricks            wineasio
