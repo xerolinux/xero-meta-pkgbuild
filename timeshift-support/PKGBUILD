@@ -1,8 +1,8 @@
 # Maintainer: librewish <librewish@gmail.com>
 
-pkgname=timeshift-support
-pkgver=0.1
-pkgrel=3
+pkgname=timeshift-autosnap-support
+pkgver=0.2
+pkgrel=1
 pkgdesc='Support package for enabling Timeshift with timeshift-autosnap and grub-btrfs support'
 arch=(any)
 url='https://gitlab.com/garuda-linux/packages/stable-pkgbuilds/timeshift-support'
