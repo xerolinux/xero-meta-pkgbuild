@@ -2,7 +2,7 @@
 
 pkgname=pipewire-support
 pkgver=1
-pkgrel=3
+pkgrel=4
 arch=('any')
 url="https://wiki.archlinux.org/index.php/PipeWire"
 license=('GPL')
@@ -16,6 +16,7 @@ depends=("gst-plugin-pipewire"
         "pipewire-v4l2"
         "pipewire-x11-bell"
         "pipewire-zeroconf"
+        "lib32-pipewire-jack"
         "realtime-privileges"
         "sof-firmware"
         "wireplumber")
