@@ -1,2 +1,3 @@
-# xero-meta-pkgbuild
-Repo For XeroLinux Meta PKGBUILD
+# XeroLinux Meta Packages
+
+Repo For XeroLinux Meta PKGBUILDs
