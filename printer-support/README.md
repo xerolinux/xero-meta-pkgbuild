@@ -1,3 +1,0 @@
-# printer-support
-
-PKGBUILD for 
