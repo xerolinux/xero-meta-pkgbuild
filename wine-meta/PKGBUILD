@@ -1,6 +1,6 @@
 # Maintainer: Librewish <librewish@gmail.com>
 pkgname=wine-meta
-pkgver=2.2
+pkgver=2.3
 pkgrel=1
 arch=('any')
 url="https://wiki.archlinux.org/index.php/wine"
@@ -11,18 +11,18 @@ package() {
 	depends=(
 		# Wine core
 		wine
-		wine-nine wine-installer
+		wine-installer
 		winetricks wineasio
 		icoextract icoutils
 
 		# Audio
-		mpg123   lib32-mpg123
-		openal   lib32-openal
-		alsa-oss lib32-alsa-oss
-		fluidsynth lib32-fluidsynth
+		mpg123
+		openal
+		alsa-oss
+		fluidsynth
 
 		# Graphics & display
-		giflib        lib32-giflib
+		giflib
 		libpng        lib32-libpng
 		libjpeg-turbo lib32-libjpeg-turbo
 		gtk3          lib32-gtk3
@@ -39,7 +39,7 @@ package() {
 
 		# Misc libraries
 		ncurses lib32-ncurses
-		libxslt lib32-libxslt
+		libxslt
 		sqlite  lib32-sqlite
 	)
 }
